@@ -1,0 +1,21 @@
+# Ignoriši node_modules svuda (root i podfolderi)
+**/node_modules/
+node_modules
+client/node_modules
+*/node_modules
+
+# Ignoriši build foldere
+**/dist/
+**/build/
+
+# Ignoriši logove
+*.log
+npm-debug.log*
+
+# Ignoriši .env fajlove (sigurnost)
+.env
+.env.local
+
+# Ignoriši sistemske fajlove
+.DS_Store
+node_modules
